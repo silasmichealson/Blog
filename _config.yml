@@ -2,14 +2,19 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# Site
-title: Hexo
-subtitle: ''
+# Site 网站相关的一些信息配置
+title: silas的博客  #网站的名字
+subtitle: ''        #网站的副标题，生成的时候默认为空
 description: ''
 keywords:
-author: John Doe
-language: en
+author: silas
+language: zh-CN
 timezone: ''
+#description：主要用于SEO，告诉搜索引擎一个关于站点的简单描述，在官方文档中建议在这段描述中增加自己的一些关键词，总之我写了之后是在网页中找不到我写的描述，可能是这个主题里面没把描述写出来，也可能我没看到
+#keywords：网站的关键词，使用半角逗号分隔开多个关键词，关键词对SEO的优化有一定的作用
+#author：顾名思义就是作者，这个也只是署个名而已
+#language：这里就写了网站使用的语言
+#timezone：网站对应的时区，一般情况下不用去刻意配置，会默认使用电脑的时区，但如果发布到其他地方的服务器，可能会使用当地服务器的时区，此时如果有需要用到本电脑的时区就要手动设置时区了，一般中国的时区可以设置为Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -97,7 +102,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
